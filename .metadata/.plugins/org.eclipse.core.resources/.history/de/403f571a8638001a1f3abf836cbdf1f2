@@ -1,0 +1,25 @@
+package br.com.testeComSpring.model;
+
+import javax.validation.Validation;
+import javax.validation.Validator;
+import javax.validation.ValidatorFactory;
+
+import org.junit.Before;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.junit4.SpringRunner;
+
+@RunWith(SpringRunner.class)
+public class CidadeValidationTest {
+	
+	private Validator validador;
+	private Cidade cidade;
+	
+	@Before
+	public void setUp() {
+		ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+		this.validador = factory.getValidator();
+
+		cidade = new Cidade("Sao Luis, UF.MA, 10.0);
+	}
+
+}

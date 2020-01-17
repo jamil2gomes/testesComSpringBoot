@@ -1,0 +1,15 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="javax.persistence.EnumType"/><rhs name\="javax.persistence.GenerationType"/><rhs name\="br.com.testeComSpring.model.UF"/></lhs><lhs name\="org.springframework.data.util.Streamable"><rhs name\="org.springframework.data.domain.Sort"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="org.springframework.data.domain.Sort"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.function.Supplier"><rhs name\="org.springframework.data.domain.Sort"/></lhs><lhs name\="org.springframework.data.domain.Sort"><rhs name\="org.springframework.data.domain.Sort"/></lhs><lhs name\="br.com.testeComSpring.model.Cliente"><rhs name\="br.com.testeComSpring.model.Cliente"/></lhs><lhs name\="org.junit.rules.TestRule"><rhs name\="org.junit.rules.ExpectedException"/></lhs><lhs name\="org.junit.rules.ExpectedException"><rhs name\="org.junit.rules.ExpectedException"/></lhs><lhs name\="br.com.testeComSpring.model.Cidade"><rhs name\="br.com.testeComSpring.model.Cidade"/></lhs><lhs name\="java.lang.Number"><rhs name\="java.math.BigDecimal"/></lhs><lhs name\="java.math.BigDecimal"><rhs name\="java.math.BigDecimal"/></lhs><lhs name\="br.com.testeComSpring.model.Frete"><rhs name\="br.com.testeComSpring.model.Frete"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="br.com.testeComSpring.model.UF"><rhs name\="br.com.testeComSpring.model.UF"/></lhs><lhs name\="org.springframework.util.MimeType"><rhs name\="org.springframework.http.MediaType"/></lhs><lhs name\="org.springframework.http.MediaType"><rhs name\="org.springframework.http.MediaType"/></lhs></history>
+content_assist_number_of_computers=15
+content_assist_proposals_background=64,64,64
+content_assist_proposals_foreground=218,218,218
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=16
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,8 @@
+package br.com.testeComSpring.service.api;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class FreteService {
+
+}

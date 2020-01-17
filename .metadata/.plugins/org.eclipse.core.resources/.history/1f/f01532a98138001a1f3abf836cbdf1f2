@@ -1,0 +1,6 @@
+package br.com.testeComSpring.repository;
+
+
+public class ClienteRepositoryTest {
+
+}

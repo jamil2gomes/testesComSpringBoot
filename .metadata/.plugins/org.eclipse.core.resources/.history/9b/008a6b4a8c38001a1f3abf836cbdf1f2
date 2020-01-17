@@ -1,0 +1,31 @@
+package br.com.testeComSpring.model;
+
+import java.math.BigDecimal;
+
+import javax.validation.Validation;
+import javax.validation.Validator;
+import javax.validation.ValidatorFactory;
+
+import org.junit.Before;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.junit4.SpringRunner;
+
+@RunWith(SpringRunner.class)
+public class FreteValidationTest {
+	
+	private Validator validador;
+	private Frete frete;
+	private Cliente cliente =  new Cliente("jamil", "rua 1", "23456787");
+	private Cidade cidade = new Cidade("Sao Luis", UF.MA, new BigDecimal(10.0));
+	
+	@Before
+	public void setUp() {
+		ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+		this.validador = factory.getValidator();
+		
+		frete = new Frete("descricao aqui", new BigDecimal(20), new BigDecimal(10), cliente, cidade);	
+	}
+	
+	
+
+}

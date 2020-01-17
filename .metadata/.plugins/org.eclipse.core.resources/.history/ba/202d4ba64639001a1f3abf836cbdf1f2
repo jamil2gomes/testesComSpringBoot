@@ -1,0 +1,28 @@
+package br.com.testeComSpring.service.api;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import br.com.testeComSpring.model.Frete;
+import br.com.testeComSpring.repository.FreteRepository;
+import integracao.rest.contatos.Contato;
+
+
+@Service
+public class FreteService {
+	
+	private FreteRepository freteRepository;
+	
+	
+	public Frete inserirOuAlterar(Frete frete) {
+		return freteRepository.save(frete);
+	}
+	
+	public List<Frete> buscarFretes() throws RuntimeException {
+		return freteRepository.findAll();
+	}
+	
+	
+
+}

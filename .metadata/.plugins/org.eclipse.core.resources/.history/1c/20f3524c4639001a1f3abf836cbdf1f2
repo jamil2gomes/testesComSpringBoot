@@ -1,0 +1,5 @@
+package br.com.testeComSpring.service.api;
+
+public class FreteService {
+
+}

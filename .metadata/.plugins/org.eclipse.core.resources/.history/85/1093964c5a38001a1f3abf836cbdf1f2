@@ -1,0 +1,13 @@
+package br.com.testeComSpring.model;
+
+public class Cidade {
+	
+	private Long id;
+	private String nome;
+	private UF uf;
+	private Double taxa;
+	
+	
+	public Cidade() {}
+
+}

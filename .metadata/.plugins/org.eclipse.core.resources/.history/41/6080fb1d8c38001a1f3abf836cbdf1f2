@@ -1,0 +1,24 @@
+package br.com.testeComSpring.model;
+
+import javax.validation.Validation;
+import javax.validation.Validator;
+import javax.validation.ValidatorFactory;
+
+import org.junit.Before;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.junit4.SpringRunner;
+
+@RunWith(SpringRunner.class)
+public class FreteValidationTest {
+	
+	private Validator validador;
+	
+	@Before
+	public void setUp() {
+		ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+		this.validador = factory.getValidator();
+		
+		
+	}
+
+}
