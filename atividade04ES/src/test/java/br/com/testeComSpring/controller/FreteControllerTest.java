@@ -1,5 +1,6 @@
 package br.com.testeComSpring.controller;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
@@ -11,7 +12,6 @@ import java.util.List;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.ArgumentMatchers;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -27,7 +27,7 @@ import br.com.testeComSpring.model.Cidade;
 import br.com.testeComSpring.model.Cliente;
 import br.com.testeComSpring.model.Frete;
 import br.com.testeComSpring.model.UF;
-import br.com.testeComSpring.service.api.FreteService;
+import br.com.testeComSpring.service.FreteService;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(controllers = FreteController.class)
@@ -35,9 +35,10 @@ public class FreteControllerTest {
 
 	@Autowired
 	private MockMvc mvc;
-
+	
 	@MockBean
 	private FreteService freteService;
+	
 	
 	@Autowired
     private ObjectMapper objectMapper;
@@ -69,7 +70,7 @@ public class FreteControllerTest {
 
 		Mockito.when(freteService.buscarFrete(1L)).thenReturn(f);
 
-		mvc.perform(get("/frete/{id}", 1L).contentType("application/json"))
+		mvc.perform(get("/fretes/{id}", 1L).contentType("application/json"))
 		.andDo(print())
 		.andExpect(status().isOk());
 
@@ -78,26 +79,34 @@ public class FreteControllerTest {
 	@Test
 	public void deveCriarUmFrete() throws Exception {
 		
-		Cliente cliente = new Cliente("cliente", "cliente", "cliente");
+		Cliente cliente = new Cliente("Cliente", "Rua 1", "32343234");	
+		cliente.setId(1L);
+		Cidade cidade = new Cidade("Cidade", UF.AC, new BigDecimal(10.0));
+		cidade.setId(1l);
 		
-		Cidade cidade = new Cidade("cidade", UF.AC, new BigDecimal(10));
-		
-		Frete f = new Frete("algo aqui", new BigDecimal(10), new BigDecimal(10),cliente, cidade);
 	
-			
-		Mockito.when(freteService.inserirOuAlterar(ArgumentMatchers.any(Frete.class))).thenReturn(f);
+	
+		Frete freteRequest =  new Frete("algo aqui", new BigDecimal(10.0), new BigDecimal(10.0),cliente, cidade);
+		Frete freteResponse = new Frete("algo aqui", new BigDecimal(10.0), new BigDecimal(10.0),cliente, cidade);
+	
+		
+		
+		Mockito.when(freteService.inserir(freteRequest)).thenReturn(freteResponse);
 		
 		 
-		 
-		MvcResult mvcResult =mvc.perform(post("fretes")
+		MvcResult mvcResult =mvc.perform(post("/fretes")
 	                .contentType(MediaType.APPLICATION_JSON)
-	                .content(objectMapper.writeValueAsString(f)))
+	                .content(objectMapper.writeValueAsString(freteRequest)))
 	                .andExpect(status().isCreated())
 	                .andReturn();
 		 
 		 
 		 String jsonResponse = mvcResult.getResponse().getContentAsString();
-		 Frete frete = new ObjectMapper().readValue(jsonResponse, Frete.class);
+		 
+		 
+		 assertEquals(objectMapper.writeValueAsString(freteRequest), jsonResponse);
+		 
+		 
 	}
 	
 	

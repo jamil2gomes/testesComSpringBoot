@@ -16,6 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.jdbc.EmbeddedDatabaseConnection;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.dao.InvalidDataAccessApiUsageException;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import br.com.testeComSpring.model.Cidade;
@@ -25,7 +26,6 @@ import br.com.testeComSpring.model.UF;
 import br.com.testeComSpring.repository.CidadeRepository;
 import br.com.testeComSpring.repository.ClienteRepository;
 import br.com.testeComSpring.repository.FreteRepository;
-import br.com.testeComSpring.service.exception.FreteException;
 
 
 @RunWith(SpringRunner.class)
@@ -56,7 +56,8 @@ public class FreteServiceTest {
 	@Test
 	public void deveLancarExcecaoAoSalvarFreteSemClienteCadastrado() throws Exception {
 
-		expectedException.expect(FreteException.class);
+		expectedException.expect(InvalidDataAccessApiUsageException.class);
+		
 
 		Cliente cliente = new Cliente("Jamil", "endereco", "32344543");
 		Cidade cidade = new Cidade("Sao Luis", UF.MA, new BigDecimal(10));
@@ -80,7 +81,7 @@ public class FreteServiceTest {
 	@Test
 	public void deveLancarExcecaoAoSalvarFreteSemCidadeCadastrada() throws Exception {
 
-		expectedException.expect(FreteException.class);
+		expectedException.expect(InvalidDataAccessApiUsageException.class);
 
 		Cliente cliente = new Cliente("Jamil", "endereco", "32344543");
 		clienteRepository.save(cliente);

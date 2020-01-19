@@ -20,6 +20,7 @@ public class Cidade {
 	
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	
 	@NotEmpty(message = "Nome não pode ser vazio")
 	private String nome;
 	
@@ -41,6 +42,8 @@ public class Cidade {
 
 
 	public Long getId() {return id;}
+	
+	public void setId(Long id) {this.id = id;}
 
 	public String getNome() {return nome;}
 
