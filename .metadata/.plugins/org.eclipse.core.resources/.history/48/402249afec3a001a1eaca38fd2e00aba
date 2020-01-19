@@ -64,6 +64,7 @@ public class FreteControllerTest {
 		Frete f = new Frete("algo aqui", new BigDecimal(10), new BigDecimal(10),
 				new Cliente("cliente", "cliente", "cliente"), new Cidade("cidade", UF.AC, new BigDecimal(10)));
 
+		// f.setId(1L);
 
 		Mockito.when(freteService.buscarFrete(1L)).thenReturn(f);
 
@@ -92,28 +93,6 @@ public class FreteControllerTest {
 		String jsonResponse = mvcResult.getResponse().getContentAsString();
 
 		assertEquals(objectMapper.writeValueAsString(freteRequest), jsonResponse);
-
-	}
-	
-	
-	@Test
-	public void deveLancarErro400AoSalvarFreteComClienteNulo() throws Exception {
-
-		Cliente cliente = new Cliente("Cliente", "Rua 1", "32343234");
-		cliente.setId(1L);
-		Cidade cidade = new Cidade("Cidade", UF.AC, new BigDecimal(10.0));
-		cidade.setId(1l);
-
-		Frete frete = new Frete("algo aqui", new BigDecimal(10.0), new BigDecimal(10.0), null, cidade);
-		
-
-		Mockito.when(freteService.inserir(frete)).thenReturn(frete);
-
-		 mvc.perform(post("/fretes").contentType(MediaType.APPLICATION_JSON)
-			.content(objectMapper.writeValueAsString(frete)))
-			.andExpect(status().isBadRequest());
-
-	
 
 	}
 

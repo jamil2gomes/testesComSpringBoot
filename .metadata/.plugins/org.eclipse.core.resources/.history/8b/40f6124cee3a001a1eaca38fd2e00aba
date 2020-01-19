@@ -105,15 +105,18 @@ public class FreteControllerTest {
 		cidade.setId(1l);
 
 		Frete frete = new Frete("algo aqui", new BigDecimal(10.0), new BigDecimal(10.0), null, cidade);
-		
+		Frete freteResponse = new Frete("algo aqui", new BigDecimal(10.0), new BigDecimal(10.0), cliente, cidade);
 
-		Mockito.when(freteService.inserir(frete)).thenReturn(frete);
+		Mockito.when(freteService.inserir(frete)).thenReturn(freteResponse);
 
-		 mvc.perform(post("/fretes").contentType(MediaType.APPLICATION_JSON)
-			.content(objectMapper.writeValueAsString(frete)))
-			.andExpect(status().isBadRequest());
+		MvcResult mvcResult = mvc
+				.perform(post("/fretes").contentType(MediaType.APPLICATION_JSON)
+						.content(objectMapper.writeValueAsString(frete)))
+				.andExpect(status().isBadRequest()).andReturn();
 
-	
+		String jsonResponse = mvcResult.getResponse().getContentAsString();
+
+		assertEquals(objectMapper.writeValueAsString(frete), jsonResponse);
 
 	}
 

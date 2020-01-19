@@ -19,6 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.testeComSpring.model.Frete;
 import br.com.testeComSpring.service.FreteService;
 
+
+
 @RestController
 @RequestMapping("/fretes")
 public class FreteController {

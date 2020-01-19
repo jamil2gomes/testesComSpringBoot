@@ -19,6 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.testeComSpring.model.Frete;
 import br.com.testeComSpring.service.FreteService;
 
+
+
 @RestController
 @RequestMapping("/fretes")
 public class FreteController {
@@ -45,7 +47,7 @@ public class FreteController {
 	}
 	
 	@PutMapping("/{id}")
-	public ResponseEntity<?> alterar(@PathVariable Long id, @Valid @RequestBody  Frete frete) throws Exception {
+	public ResponseEntity<?> alterar(@PathVariable Long id, @RequestBody @Valid Frete frete) throws Exception {
 		frete = freteService.inserir(frete);
 		return new ResponseEntity<>(frete, HttpStatus.CREATED);
 	}

@@ -110,8 +110,8 @@ public class FreteControllerTest {
 		Mockito.when(freteService.inserir(frete)).thenReturn(frete);
 
 		 mvc.perform(post("/fretes").contentType(MediaType.APPLICATION_JSON)
-			.content(objectMapper.writeValueAsString(frete)))
-			.andExpect(status().isBadRequest());
+						.content(objectMapper.writeValueAsString(frete)))
+				.andExpect(status().isBadRequest());
 
 	
 
