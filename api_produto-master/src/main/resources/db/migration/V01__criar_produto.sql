@@ -1,0 +1,7 @@
+CREATE TABLE produtos (
+  id INT NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(100) NOT NULL,
+  categoria VARCHAR(100) NOT NULL,
+  quantidade INT NOT NULL,
+  PRIMARY KEY (id)
+) engine=InnoDB DEFAULT CHARSET=utf8;
