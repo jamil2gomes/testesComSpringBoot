@@ -1,9 +1,0 @@
-package br.com.testeComSpring.repository;
-
-import org.junit.runner.RunWith;
-import org.springframework.boot.SpringApplication;
-
-@RunWith(SpringApplication.class)
-public class ClienteRepositoryTest {
-
-}

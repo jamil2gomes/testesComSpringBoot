@@ -1,5 +1,0 @@
-package br.com.testeComSpring.repository;
-
-public interface CidadeRepository {
-
-}

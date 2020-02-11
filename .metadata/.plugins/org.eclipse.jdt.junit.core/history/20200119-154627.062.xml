@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="FreteControllerTest" project="atividade04ES" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="br.com.testeComSpring.controller.FreteControllerTest" time="0.564" displayname="FreteControllerTest" uniqueid="[engine:junit-vintage]/[runner:br.com.testeComSpring.controller.FreteControllerTest]">
-    <testcase name="deveBuscarFretesPorId" classname="br.com.testeComSpring.controller.FreteControllerTest" time="0.278" displayname="deveBuscarFretesPorId" uniqueid="[engine:junit-vintage]/[runner:br.com.testeComSpring.controller.FreteControllerTest]/[test:deveBuscarFretesPorId(br.com.testeComSpring.controller.FreteControllerTest)]"/>
-    <testcase name="deveCriarUmFrete" classname="br.com.testeComSpring.controller.FreteControllerTest" time="0.259" displayname="deveCriarUmFrete" uniqueid="[engine:junit-vintage]/[runner:br.com.testeComSpring.controller.FreteControllerTest]/[test:deveCriarUmFrete(br.com.testeComSpring.controller.FreteControllerTest)]"/>
-    <testcase name="deveBuscarTodosFretes" classname="br.com.testeComSpring.controller.FreteControllerTest" time="0.026" displayname="deveBuscarTodosFretes" uniqueid="[engine:junit-vintage]/[runner:br.com.testeComSpring.controller.FreteControllerTest]/[test:deveBuscarTodosFretes(br.com.testeComSpring.controller.FreteControllerTest)]"/>
-  </testsuite>
-</testrun>

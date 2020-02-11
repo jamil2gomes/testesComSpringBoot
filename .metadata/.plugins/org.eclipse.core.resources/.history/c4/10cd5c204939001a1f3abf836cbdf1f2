@@ -1,5 +1,0 @@
-package br.com.testeComSpring.service.exception;
-
-public class ObjectNotFoundException {
-
-}

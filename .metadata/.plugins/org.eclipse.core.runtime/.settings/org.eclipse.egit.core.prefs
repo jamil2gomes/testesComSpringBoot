@@ -1,2 +1,4 @@
+GitRepositoriesView.GitDirectories=/home/jamil/TrabalhoXP/.git\:/home/jamil/Documents/workspace-spring-tool-suite/.git\:/home/jamil/api_produto/.git\:
+GitRepositoriesView.GitDirectories.relative=/home/jamil/TrabalhoXP/.git\:.git\:/home/jamil/api_produto/.git\:
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
