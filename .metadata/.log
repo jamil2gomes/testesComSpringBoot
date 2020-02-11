@@ -1425,3 +1425,494 @@ java.lang.Exception: File not found: /home/jamil/Documents/workspace-spring-tool
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:25:51.337
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nRkXAdhK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:25:51.338
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.nRkXAdhK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:25:51.339
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:25:51.339
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nRkXAdhK => OK
+
+!ENTRY org.eclipse.core.resources 2 2 2020-02-11 13:26:09.023
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2020-02-11 13:26:09.023
+!MESSAGE The project description file (.project) for 'api-es2-master' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:19.554
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:19.555
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6b87c6a[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=617)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:19.555
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.718
+!MESSAGE Boot LS startup time from start to initialized: 3161ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.757
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EdPnSUZOisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.757
+!MESSAGE subscribing to classpath changes: sts4.classpath.EdPnSUZO isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.757
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.758
+!MESSAGE subsribers = {sts4.classpath.EdPnSUZO=Send Classpath Notifications(1028)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.758
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.759
+!MESSAGE project api-es2-master ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.759
+!MESSAGE project 01_teste_integracao ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.759
+!MESSAGE Preparing classpath changed notification api-es2-master
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.759
+!MESSAGE project 01_teste_integracao SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.759
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.759
+!MESSAGE project 02_teste_componente ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.760
+!MESSAGE project 02_teste_componente SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.760
+!MESSAGE project 03-rest_controller ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.760
+!MESSAGE project 03-rest_controller SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.760
+!MESSAGE project api_produto ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.760
+!MESSAGE project api_produto SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.761
+!MESSAGE project api_produto-master ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.761
+!MESSAGE project api_produto-master SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.761
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.761
+!MESSAGE project atividade04ES ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.762
+!MESSAGE buffering callback sts4.classpath.EdPnSUZO api-es2-master false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.762
+!MESSAGE project certificadoMonoApi ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.762
+!MESSAGE Preparing classpath changed notification atividade04ES
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.762
+!MESSAGE project certificadoMonoApi SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.763
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.763
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.763
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EdPnSUZO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.765
+!MESSAGE classpath=101 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.765
+!MESSAGE buffering callback sts4.classpath.EdPnSUZO atividade04ES false 101
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.766
+!MESSAGE executing callback sts4.classpath.EdPnSUZO 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:22.827
+!MESSAGE executing callback sts4.classpath.EdPnSUZO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:35.385
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.EdPnSUZO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:35.385
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.EdPnSUZO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:35.385
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:35.386
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.EdPnSUZO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:39.197
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:39.197
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6b87c6a[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=617)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:39.198
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:41.974
+!MESSAGE Boot LS startup time from start to initialized: 2776ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.008
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UUKfpqIGisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.008
+!MESSAGE subscribing to classpath changes: sts4.classpath.UUKfpqIG isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.008
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.008
+!MESSAGE subsribers = {sts4.classpath.UUKfpqIG=Send Classpath Notifications(1034)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.008
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.009
+!MESSAGE project api-es2-master ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.009
+!MESSAGE project 01_teste_integracao ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.009
+!MESSAGE Preparing classpath changed notification api-es2-master
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.010
+!MESSAGE project 01_teste_integracao SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.010
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.010
+!MESSAGE project 02_teste_componente ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.010
+!MESSAGE project 02_teste_componente SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.010
+!MESSAGE project 03-rest_controller ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.010
+!MESSAGE project 03-rest_controller SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.010
+!MESSAGE project api_produto ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.011
+!MESSAGE project api_produto SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.011
+!MESSAGE project api_produto-master ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.011
+!MESSAGE project api_produto-master SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.011
+!MESSAGE project atividade04ES ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.011
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.011
+!MESSAGE project certificadoMonoApi ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.011
+!MESSAGE project certificadoMonoApi SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.012
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.012
+!MESSAGE buffering callback sts4.classpath.UUKfpqIG api-es2-master false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.012
+!MESSAGE Preparing classpath changed notification atividade04ES
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.012
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UUKfpqIG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.012
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.014
+!MESSAGE classpath=101 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.014
+!MESSAGE buffering callback sts4.classpath.UUKfpqIG atividade04ES false 101
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.014
+!MESSAGE executing callback sts4.classpath.UUKfpqIG 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:42.068
+!MESSAGE executing callback sts4.classpath.UUKfpqIG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:43.026
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UUKfpqIG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:43.027
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.UUKfpqIG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:43.027
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:27:43.027
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UUKfpqIG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:06.569
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:06.569
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6b87c6a[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=617)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:06.569
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.795
+!MESSAGE Boot LS startup time from start to initialized: 3225ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.856
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MLsZqkNuisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.857
+!MESSAGE subscribing to classpath changes: sts4.classpath.MLsZqkNu isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.857
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.857
+!MESSAGE subsribers = {sts4.classpath.MLsZqkNu=Send Classpath Notifications(1048)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.857
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.863
+!MESSAGE project atividade04ES ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.864
+!MESSAGE Preparing classpath changed notification atividade04ES
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.864
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.866
+!MESSAGE classpath=101 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.869
+!MESSAGE buffering callback sts4.classpath.MLsZqkNu atividade04ES false 101
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.869
+!MESSAGE executing callback sts4.classpath.MLsZqkNu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.873
+!MESSAGE project 01_teste_integracao ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.874
+!MESSAGE project 01_teste_integracao SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.874
+!MESSAGE project 02_teste_componente ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.875
+!MESSAGE project 02_teste_componente SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.875
+!MESSAGE project 03-rest_controller ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.875
+!MESSAGE project 03-rest_controller SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.875
+!MESSAGE project api-es2-master ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.875
+!MESSAGE project api_produto ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.876
+!MESSAGE project api_produto SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.876
+!MESSAGE project api_produto-master ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.876
+!MESSAGE project api_produto-master SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.876
+!MESSAGE project certificadoMonoApi ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.876
+!MESSAGE project certificadoMonoApi SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.876
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.876
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.MLsZqkNu => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.932
+!MESSAGE executing callback sts4.classpath.MLsZqkNu SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.933
+!MESSAGE Preparing classpath changed notification api-es2-master
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.934
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.938
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.940
+!MESSAGE buffering callback sts4.classpath.MLsZqkNu api-es2-master false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.940
+!MESSAGE executing callback sts4.classpath.MLsZqkNu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:09.966
+!MESSAGE executing callback sts4.classpath.MLsZqkNu SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:32.454
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.MLsZqkNu
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:32.454
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.MLsZqkNu
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:32.454
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:32.455
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.MLsZqkNu => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:47.698
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:47.699
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6b87c6a[org.springframework.tooling.boot.ls:1.10.0.201908130624(id=617)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:47.702
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.536
+!MESSAGE Boot LS startup time from start to initialized: 2832ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.618
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DVaZrYNDisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.618
+!MESSAGE subscribing to classpath changes: sts4.classpath.DVaZrYND isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.618
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.619
+!MESSAGE subsribers = {sts4.classpath.DVaZrYND=Send Classpath Notifications(1076)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.619
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.636
+!MESSAGE project atividade04ES ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.636
+!MESSAGE project 01_teste_integracao ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.636
+!MESSAGE Preparing classpath changed notification atividade04ES
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.637
+!MESSAGE project 01_teste_integracao SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.637
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.637
+!MESSAGE project 02_teste_componente ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.637
+!MESSAGE project 02_teste_componente SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.637
+!MESSAGE project 03-rest_controller ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.637
+!MESSAGE project 03-rest_controller SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.637
+!MESSAGE project api-es2-master ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.638
+!MESSAGE project api_produto ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.638
+!MESSAGE project api_produto SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.638
+!MESSAGE project api_produto-master ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.638
+!MESSAGE project api_produto-master SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.638
+!MESSAGE project certificadoMonoApi ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.638
+!MESSAGE project certificadoMonoApi SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.639
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.639
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DVaZrYND => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.640
+!MESSAGE classpath=101 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.641
+!MESSAGE buffering callback sts4.classpath.DVaZrYND atividade04ES false 101
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.641
+!MESSAGE Preparing classpath changed notification api-es2-master
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.642
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.643
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.644
+!MESSAGE buffering callback sts4.classpath.DVaZrYND api-es2-master false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.644
+!MESSAGE executing callback sts4.classpath.DVaZrYND 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:34:50.753
+!MESSAGE executing callback sts4.classpath.DVaZrYND SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:35:05.625
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DVaZrYND
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:35:05.626
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.DVaZrYND
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:35:05.627
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-02-11 13:35:05.627
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DVaZrYND => OK
